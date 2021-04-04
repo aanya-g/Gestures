@@ -1,0 +1,77 @@
+body
+{
+  color: white;
+  animation : anim 10s infinite;
+  position:relative;
+}
+@keyframes anim{
+  0%{background-color:blue}
+  20%{background-color:blueviolet}
+  40%{background-color:violet}
+  60%{background-color:plum}
+  80%{background-color:purple}
+  90%{background-color:white}
+  100%{background:linear-gradient(to top right,violet,purple,blue,aqua,aquamarine)}
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+.heading{
+  letter-spacing: 5px;
+  font-size: 18 px;
+  
+}
+#excited{
+  animation: animi1 5s infinite;
+  position: relative;
+}
+@keyframes animi1{
+  0% {background-color: red; left:-200px;}
+  25% {background-color: orange; left:0px;}
+  50%{background-color: yellow; left:200px;}
+  75% {background-color: yellowgreen; left:0px;}
+  100% {background-color: red; left:-200px;}
+}
+
+#happy{
+  animation: animi2 5s infinite;
+  position: relative;
+}
+@keyframes animi2{
+  0% {background-color: red; left:200px;}
+  25% {background-color: orange; left:0px;}
+  50%{background-color: yellow; left:-200px;}
+  75% {background-color: yellowgreen; left:0px;}
+  100% {background-color: red; left:200px;}
+}
+
+#angry{
+  animation: animi3 5s infinite;
+  position: relative;
+}
+@keyframes animi3{
+  0% {background-color: red; left:0px;}
+  25% {background-color: orange; left:-200px;}
+  50%{background-color: yellow; left:200px;}
+  75% {background-color: yellowgreen; left:-200px;}
+  100% {background-color: red; left:200px;}
+}
